@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>GeneralOptions</key>
+    <dict>
+      <key>activationToken</key>
+      <string>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2RlZG1jd2dmY3N4dXNvb25nYmNiLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJleHAiOjQ4ODIwNzQ3MjUsImN1c3RvbWVyX2lkIjoiNzBiZGQ4N2UtMGVjZC00YjUxLWJlMTItODgyNjU2Yjc2N2E0In0.m317nsgZ93ypFKtmEOX8mWloE7RucRinSX04GfB0ARU</string>
+      <key>publicKey</key>
+      <string>30820122300d06092a864886f70d01010105000382010f003082010a0282010100dc77cfcfbf6a9da9fb78a2b07a41c09a522eaf96772f0237883d3c7d1846e000c6d65ca05aac96bdf4c5fcde230fa0a86b100c355d59187eabfb6f76cc117d367a47ad8787a5f9afdc658ab1f2ed202bf2fc0bfdfe864f676961fd8eed3cd08cf998f4a827f053a3b203d26fe1f0d7f6b6281097eeef3e65e8794847b180982295ebd09ebeba9d24ca18d0a758879d0d75ab3237eafd2b564f23d79b040766a3f9250d4ea6ef8b9dd47068efe6a3680899b92416b5819c92609ff9183fd30ef158e7eae959fbe54b127df9c4693b47e14edbaa0c7ab426067b75660786b5e3a00f6a9928f85bba39e93bba592939f1cba3ddc185d90f4c127cc20f33682a3ec30203010001</string>
+      <key>hourlyCheck</key>
+      <true/>
+      <key>updatePrompts</key>
+      <true/>
+      <key>autoUpdate</key>
+      <true/>
+      <key>allowedAppInstalls</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+      <key>excludedAppInstalls</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+      <key>allowedAppUpdates</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+      <key>excludedAppUpdates</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+    </dict>
+    <key>ScheduledUpdates</key>
+    <dict>
+      <key>runFrequency</key>
+      <dict>
+        <key>runType</key>
+        <string>specifyFrequency</string>
+        <key>frequencyOption</key>
+        <string>oneWeek</string>
+        <key>frequencyElapsedMode</key>
+        <string>singlePromptMode</string>
+      </dict>
+      <key>runLimitations</key>
+      <dict>
+        <key>monday</key>
+        <true/>
+        <key>mondayStartTime</key>
+        <string>00:00</string>
+        <key>mondayEndTime</key>
+        <string>23:59</string>
+        <key>tuesday</key>
+        <true/>
+        <key>tuesdayStartTime</key>
+        <string>00:00</string>
+        <key>tuesdayEndTime</key>
+        <string>23:59</string>
+        <key>wednesday</key>
+        <true/>
+        <key>wednesdayStartTime</key>
+        <string>00:00</string>
+        <key>wednesdayEndTime</key>
+        <string>23:59</string>
+        <key>thursday</key>
+        <true/>
+        <key>thursdayStartTime</key>
+        <string>00:00</string>
+        <key>thursdayEndTime</key>
+        <string>23:59</string>
+        <key>friday</key>
+        <true/>
+        <key>fridayStartTime</key>
+        <string>00:00</string>
+        <key>fridayEndTime</key>
+        <string>23:59</string>
+        <key>saturday</key>
+        <true/>
+        <key>saturdayStartTime</key>
+        <string>00:00</string>
+        <key>saturdayEndTime</key>
+        <string>23:59</string>
+        <key>sunday</key>
+        <true/>
+        <key>sundayStartTime</key>
+        <string>00:00</string>
+        <key>sundayEndTime</key>
+        <string>23:59</string>
+      </dict>
+      <key>deferralConfiguration</key>
+      <dict>
+        <key>deferralOption</key>
+        <string>specifyDeferralLimit</string>
+        <key>specifyLimit</key>
+        <integer>2</integer>
+      </dict>
+      <key>gracePeriodMinutes</key>
+      <integer>30</integer>
+      <key>customIcon</key>
+      <string>/usr/local/images/CustomIcon.png</string>
+      <key>initialPromptOverlayIcon</key>
+      <string>/usr/local/images/CustomIcon.png</string>
+      <key>customInitialPromptSize</key>
+      <dict>
+        <key>promptHeight</key>
+        <integer>330</integer>
+        <key>promptWidth</key>
+        <integer>640</integer>
+      </dict>
+      <key>customGracePromptSize</key>
+      <dict>
+        <key>promptHeight</key>
+        <integer>330</integer>
+        <key>promptWidth</key>
+        <integer>640</integer>
+      </dict>
+      <key>customSelfServicePromptSize</key>
+      <dict>
+        <key>promptHeight</key>
+        <integer>330</integer>
+        <key>promptWidth</key>
+        <integer>640</integer>
+      </dict>
+      <key>singleAppTitle</key>
+      <string>Example Title</string>
+      <key>multipleAppsTitle</key>
+      <string>Example Title</string>
+      <key>singleInitialQuitPromptMessage</key>
+      <string>Example Message</string>
+      <key>multipleInitialQuitPromptMessage</key>
+      <string>Example Message</string>
+      <key>singleSelfServiceQuitMessage</key>
+      <string>Example Message</string>
+      <key>multipleSelfServiceQuitMessage</key>
+      <string>Example Message</string>
+      <key>singleAppGracePeriodQuitMessage</key>
+      <string>Example Message</string>
+      <key>multipleAppGracePeriodQuitMessage</key>
+      <string>Example Message</string>
+      <key>customDeferButton</key>
+      <string>Later</string>
+      <key>customSkipButton</key>
+      <string>Later</string>
+      <key>customUpdateButton</key>
+      <string>Update Now</string>
+      <key>appListType</key>
+      <string>vertical</string>
+      <key>refreshInterval</key>
+      <integer>60</integer>
+      <key>acceptableAppBundleIDs</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+      <key>acceptableAppAssertions</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+      <key>acceptableDNDMode</key>
+      <true/>
+      <key>acceptableCameraUsage</key>
+      <true/>
+      <key>acceptableScreenSharing</key>
+      <true/>
+      <key>updateProgressPosition</key>
+      <string>topright</string>
+      <key>updateProgressPrompt</key>
+      <string>noFocusPrompt</string>
+      <key>updateProgressOverlayIcon</key>
+      <string>/usr/local/images/CustomIcon.png</string>
+      <key>autoRelaunchApps</key>
+      <true/>
+      <key>displayCompletePrompt</key>
+      <true/>
+    </dict>
+    <key>ForcedUpdates</key>
+    <dict>
+      <key>runLimitations</key>
+      <dict>
+        <key>monday</key>
+        <true/>
+        <key>mondayStartTime</key>
+        <string>00:00</string>
+        <key>mondayEndTime</key>
+        <string>23:59</string>
+        <key>tuesday</key>
+        <true/>
+        <key>tuesdayStartTime</key>
+        <string>00:00</string>
+        <key>tuesdayEndTime</key>
+        <string>23:59</string>
+        <key>wednesday</key>
+        <true/>
+        <key>wednesdayStartTime</key>
+        <string>00:00</string>
+        <key>wednesdayEndTime</key>
+        <string>23:59</string>
+        <key>thursday</key>
+        <true/>
+        <key>thursdayStartTime</key>
+        <string>00:00</string>
+        <key>thursdayEndTime</key>
+        <string>23:59</string>
+        <key>friday</key>
+        <true/>
+        <key>fridayStartTime</key>
+        <string>00:00</string>
+        <key>fridayEndTime</key>
+        <string>23:59</string>
+        <key>saturday</key>
+        <true/>
+        <key>saturdayStartTime</key>
+        <string>00:00</string>
+        <key>saturdayEndTime</key>
+        <string>23:59</string>
+        <key>sunday</key>
+        <true/>
+        <key>sundayStartTime</key>
+        <string>00:00</string>
+        <key>sundayEndTime</key>
+        <string>23:59</string>
+      </dict>
+      <key>customIcon</key>
+      <string>/usr/local/images/CustomIcon.png</string>
+      <key>initialPromptOverlayIcon</key>
+      <string>/usr/local/images/CustomIcon.png</string>
+      <key>customInitialPromptSize</key>
+      <dict>
+        <key>promptHeight</key>
+        <integer>330</integer>
+        <key>promptWidth</key>
+        <integer>640</integer>
+      </dict>
+      <key>customGracePromptSize</key>
+      <dict>
+        <key>promptHeight</key>
+        <integer>330</integer>
+        <key>promptWidth</key>
+        <integer>640</integer>
+      </dict>
+      <key>customTitle</key>
+      <string>Example Title</string>
+      <key>initialQuitPromptMessage</key>
+      <string>Example Message</string>
+      <key>gracePeriodQuitPromptMessage</key>
+      <string>Example Message</string>
+      <key>customDeferButton</key>
+      <string>Later</string>
+      <key>customUpdateButton</key>
+      <string>Later</string>
+      <key>refreshInterval</key>
+      <integer>60</integer>
+      <key>acceptableAppBundleIDs</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+      <key>acceptableAppAssertions</key>
+      <array>
+        <string>Example App</string>
+        <string>Example App 2</string>
+      </array>
+      <key>acceptableDNDMode</key>
+      <true/>
+      <key>acceptableCameraUsage</key>
+      <true/>
+      <key>acceptableScreenSharing</key>
+      <true/>
+      <key>updateProgressPosition</key>
+      <string>topright</string>
+      <key>updateProgressPrompt</key>
+      <string>noFocusPrompt</string>
+      <key>updateProgressOverlayIcon</key>
+      <string>/usr/local/images/CustomIcon.png</string>
+      <key>autoRelaunchApps</key>
+      <true/>
+      <key>displayCompletePrompt</key>
+      <true/>
+    </dict>
+  </dict>
+</plist>
